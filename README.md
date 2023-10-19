@@ -4,7 +4,7 @@ A toolkit to implement partial least squares regression (PLSR) and discriminant 
 
 Descriptions of codes are as follows:
 
-sample_PLS.m: A sample call to PLSR and PLSDA using toy data.
+sample.m: A sample call to PLSR and PLSDA using toy data.
 
 PLSR_main.m: Takes raw data as an nxm array with m variables and n observations (X) and an nx1 array of Y values (output). Option to use least absolute shrinkage and selection operator (LASSO) to select model features and optional model orthogonalization. Runs 'plsregress' with either k-fold or leave-one-out cross-validation, and compares model performance to a user-specified number of null models. Outputs a data structure called 'model' containing all model statistics for downstream processing and visualization.
 
